@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiGravity | Future of AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">AntiGravity.</div>
+        </header>
+
+        <section class="hero">
+            <h1>Build the <br><span>Extraordinary</span></h1>
+            <p>Master the art of AI-driven development. Create stunning, responsive, and intelligent applications with
+                AntiGravity.</p>
+            <button class="btn btn-primary" id="exploreBtn">Start Building</button>
+        </section>
+
+        <section class="features">
+            <div class="card">
+                <h3>Agentic Workflows</h3>
+                <p>Seamlessly integrate autonomous agents to handle complex tasks alongside you.</p>
+            </div>
+            <div class="card">
+                <h3>Visual Mastery</h3>
+                <p>Craft beautiful, responsive user interfaces that captivate and engage users instantly.</p>
+            </div>
+            <div class="card">
+                <h3>Context Protocol</h3>
+                <p>Leverage the Model Context Protocol (MCP) to connect your AI with real-world data.</p>
+            </div>
+        </section>
+
+        <section class="agent-monitor">
+            <h2>Live Agent <span class="highlight">Network</span></h2>
+
+            <div class="chart-container">
+                <canvas id="agentChart"></canvas>
+            </div>
+
+            <button class="btn btn-primary" id="addAgentBtn" style="margin-bottom: 2rem;">+ Deploy New Agent</button>
+            <div class="agent-grid" id="agentGrid">
+                <!-- Agents will be injected here by JS -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
