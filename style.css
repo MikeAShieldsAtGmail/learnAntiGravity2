@@ -271,5 +271,10 @@ header {
         backdrop-filter: blur(10px);
     }
 
+    .footer-link:hover {
+        text-decoration: underline !important;
+        color: #93c5fd !important;
+    }
+
 
 }
