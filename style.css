@@ -57,7 +57,8 @@ header {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
-    background: linear-gradient(135deg, #fff, #94a3b8);
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    /* ORANGE EXPERIMENT */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
