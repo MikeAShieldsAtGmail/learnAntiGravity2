@@ -265,16 +265,14 @@ header {
         opacity: 1;
         transform: translateY(0);
     }
+}
 
-    footer {
-        background: rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
-    }
+footer {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
 
-    .footer-link:hover {
-        text-decoration: underline !important;
-        color: #93c5fd !important;
-    }
-
-
+.footer-link:hover {
+    text-decoration: underline !important;
+    color: #93c5fd !important;
 }
